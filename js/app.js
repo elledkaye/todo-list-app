@@ -19,6 +19,10 @@ dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 function addToDO(toDo){ 
     const item = '<li class = "item"> <i class = "fa fa-circle-thin co" job ="complete" id ="0" ></i> <p class = "text">${toDo}</p> </li>'
     list.insertAdjacentHTML(position, item);
-    
 
+} 
+
+//CLEAR TODO// 
+function clearToDO(){ 
+    
 }

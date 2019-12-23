@@ -43,7 +43,7 @@ body{
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: white;
+    color: black;
     font-size: 25px;
     font-family:  sans-serif;
 }
@@ -53,7 +53,7 @@ body{
     width:380px;
     height: 350px;
     max-height:350px;
-    background-color: #FFF;
+    background-color: rgb(193, 210, 219);
     overflow: auto;
 }
 .content::-webkit-scrollbar { 
@@ -82,7 +82,13 @@ body{
 }
 .item i.co:hover{
     cursor: pointer;
-}
+} 
+
+.fa-circle-thin{
+font-size: 25px;
+margin-top:.5%;
+margin-left:5%;}
+
 .fa-check-circle{
     color:#6eb200;
 }
@@ -93,7 +99,7 @@ body{
     font-size: 20px;
     left:50px;
     top:5px;
-    background-color: #FFF;
+    background-color: #ffff;
     max-width:285px;
 }
 .lineThrough{
